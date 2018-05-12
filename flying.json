@@ -1,5 +1,5 @@
 {
-  "name": "project_name",
+  "name": "flying-example",
   "version": "0.0.5",
   "version_prefix": "v",
   "conditions": [
@@ -15,7 +15,7 @@
   },
   "docker": {
     "enable": true,
-    "namespace": "username",
+    "namespace": "joway/flying-example",
     "dkf_path": "./Dockerfile"
   },
   "npm": {
