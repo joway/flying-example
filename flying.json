@@ -1,6 +1,6 @@
 {
   "name": "flying-example",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "version_prefix": "v",
   "conditions": [
     "git status | grep \"nothing to commit, working tree clean\""

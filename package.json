@@ -1,6 +1,6 @@
 {
   "name": "flying-example",
-  "version": "v0.0.6",
+  "version": "v0.0.7",
   "description": "examples for flying cli",
   "main": "index.js",
   "scripts": {
