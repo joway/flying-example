@@ -1,0 +1,25 @@
+{
+  "name": "project_name",
+  "version": "0.0.0",
+  "version_prefix": "v",
+  "conditions": [
+    "git status | grep \"nothing to commit, working tree clean\""
+  ],
+  "pre_release": [
+    "cat ./flying.json"
+  ],
+  "git": {
+    "enable": true,
+    "remote": "origin",
+    "release_branch": "master"
+  },
+  "docker": {
+    "enable": true,
+    "namespace": "username",
+    "dkf_path": "./Dockerfile"
+  },
+  "npm": {
+    "enable": true,
+    "package_path": "./package.json"
+  }
+}
