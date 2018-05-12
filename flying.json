@@ -1,6 +1,6 @@
 {
   "name": "project_name",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "version_prefix": "v",
   "conditions": [
     "git status | grep \"nothing to commit, working tree clean\""
